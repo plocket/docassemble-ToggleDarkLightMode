@@ -1,0 +1,14 @@
+---
+features:
+  javascript: toggle_dark_light_mode.js
+---
+mandatory: True
+question: Test toggling dark and light mode
+---
+default screen parts:
+  footer: |
+    <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" role="switch" id="switch">
+      <label class="form-check-label" for="switch">Switch</label>
+    </div>
+---
